@@ -1,0 +1,58 @@
+//https://binaryjazz.us/genrenator-api/
+//document.getElementById("hello").innerHTML = "Hello World"
+//Math.floor(Math.random() * 11); Random#: 0-10
+
+$.ajax({ //genre generator
+  url: "https://binaryjazz.us/wp-json/genrenator/v1/genre/",
+  type: "GET",
+  dataType: "json",
+  success: function(res) {
+    console.log(res);
+    document.getElementById("hello").innerHTML = "Genre: " + res 
+  }
+});
+
+$.ajax({ //story generator, 20
+  url: "https://binaryjazz.us/wp-json/genrenator/v1/story/" + Math.floor(Math.random() * 21),
+  type: "GET",
+  dataType: "json",
+  success: function(output) {
+    //console.log(output);
+    document.getElementById("meow").innerHTML = "Lyrics: " + output
+  }
+});
+
+function refreshPage(){
+  window.location.reload();
+} 
+
+  $('#rawr').hide().delay(1000).fadeIn(2200);
+  $('#hello').hide().delay(2000).fadeIn(2200);
+  $('#butt').hide().delay(3000).fadeIn(2200);
+  $('hr').hide().delay(4000).fadeIn(2200);
+  $('#emoji').hide().delay(5000).fadeIn(2200);
+  $('#meow').hide().delay(3000).fadeIn(2200);
+
+document.getElementById("hello").addEventListener("click", ()=>{
+  $("#hello").css("color", randomColor());
+});
+
+document.getElementById("meow").addEventListener("click", ()=>{
+  $("#meow").css("color", randomColor());
+});
+
+function rand255(){
+  return Math.floor(Math.random() * 256);
+}
+
+function randomColor(){
+  return "rgb(" + rand255() + "," + rand255() + "," + rand255() + ")"
+}
+
+$("p")[1].addEventListener("mousemove", ()=>{
+  $("p")[1].fadeOut(3000);
+})
+
+$('#yolo').hide().delay(1000).fadeIn(2200);
+$('#style').hide().delay(2000).fadeIn(2200);
+$('#emoji').hide().delay(3000).fadeIn(2200);

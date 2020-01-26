@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Delius" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"> Generator</a>
+        <a href="About.html">About</a>
+      </nav>
+      <h1 id = "rawr"> Random Genre and Lyric Generator!</h1>
+    </header>
+      <main>
+      <p id="hello"> </p>
+      <h2 id = "meow"></h2>
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    </main>
+    <button id="butt" type="submit" onClick="refreshPage()">Refresh Button</button>
+    <hr>
+    <footer>
+      <p id="emoji">
+        (づ｡◕‿‿◕｡)づ 
+      </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+    
+  </body>
+</html>

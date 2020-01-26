@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background:url("https://i.pinimg.com/originals/56/a0/fc/56a0fc32fe421c10fb6c5434f6e3657b.png");
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+#meow { /* Lyrics */
+  font-size: 35px;
+  font-family: 'Delius', cursive;
+  color:#bdd6f8;
+}
+
+#hello{ /* Genre */
+ color:#a9c8ff;
+  font-family: 'Delius', cursive;
+  font-size:50px;
+}
+
+#rawr{
+  font-family: 'Pangolin', cursive;
+}
+
+#rawr{ /* Title */
+  font-size: 55px;
+  text-align: left;
+  border: 10px solid rgba(191, 231, 244, 0.95);
+  color:aliceblue;
+  text-align: center; 
+}
+
+button{ /* Refresh */
+  font-size: 25px;
+  font-family: monospace;
+  background-color: white;
+}
+
+#emoji{ /* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Footer */
+  font-size: 20px;
+  color:aliceblue;
+  
+}
+
+nav{ /* Generator, About Page */
+  text-align: left;
+  font-size: 50px;
+  font-family: 'Caveat Brush', cursive;
+}
+
+#style{
+        font-size: 50px;
+        color:aliceblue;
+        font-family: 'Delius', cursive;
+      }
+      nav{
+        font-family: 'Caveat Brush', cursive;
+      }
+      #yolo{
+        font-family: 'Pangolin', cursive;
+        font-size: 55px;
+        text-align: left;
+        border: 10px solid rgba(191, 231, 244, 0.95);
+        color:aliceblue;
+        text-align: center; 
+      }
+      #emoji{
+        font-family: 'Pangolin', cursive;
+      }
